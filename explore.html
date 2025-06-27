@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - FitSnap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .navbar {
+            padding:3vh 0;
+        }
+
+        .navbar li {
+            font-size: small;
+            font-weight: 700;
+        }
+
+        .container a {
+            text-decoration: none;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .card:hover {
+            opacity: 0.90;
+            transition: transform 0.4s ease;
+            transform: scale(1.01);
+        }
+
+        .icon-set i {
+            font-size: 1.25rem;
+            margin: 0 10px;
+            cursor: pointer;
+            color: #000;
+        }
+
+        .icon-set i:hover {
+            color: #555;
+        }
+
+        .post-img {
+            border-radius: 10px;
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .user-profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+
+        .user-profile img {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 10vh 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">FitSnap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3" href="home.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">SHOP</a></li>
+                    <li class="nav-item"><a class="nav-link active px-3" href="explore.html">EXPLORE</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="contact.html">CONTACT US</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">PROFILE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Explore Feed -->
+    <div class="py-5">
+        <div class="container">
+            <div class="icon-set mb-5 text-center d-flex">
+                <input type="text" class="form-control" placeholder="Search...">
+                <span class="input-group-text"><i class="bi bi-search"></i></span>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="link" href="adel.html">
+                        <div class="card">
+                            <div class="user-profile">
+                                <img src="gambar/profile.png" alt="">
+                                <span>adel_pantjoro</span>
+                            </div>
+                            <img src="gambar/adel.jpg" class="post-img" alt="adel_pantjoro">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="user-profile">
+                            <img src="gambar/profile.png" alt="">
+                            <span>oline_manuel</span>
+                        </div>
+                        <img src="gambar/oline.jpeg" class="post-img" alt="oline_manuel">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="user-profile">
+                            <img src="gambar/profile.png" alt="">
+                            <span>ahnyujin</span>
+                        </div>
+                        <img src="gambar/yujin.jpg" class="post-img" alt="ahnyujin">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="user-profile">
+                            <img src="gambar/profile.png" alt="">
+                            <span>chaeww</span>
+                        </div>
+                        <img src="gambar/chaewon.jpg" class="post-img" alt="chaeww">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="user-profile">
+                            <img src="gambar/profile.png" alt="">
+                            <span>haehae</span>
+                        </div>
+                        <img src="gambar/haewon.jpg" class="post-img" alt="adel_pantjoro">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="user-profile">
+                            <img src="gambar/profile.png" alt="">
+                            <span>oline_manuel</span>
+                        </div>
+                        <img src="gambar/oline.jpeg" class="post-img" alt="oline_manuel">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="user-profile">
+                            <img src="gambar/profile.png" alt="">
+                            <span>ahnyujin</span>
+                        </div>
+                        <img src="gambar/yujin.jpg" class="post-img" alt="ahnyujin">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="user-profile">
+                            <img src="gambar/profile.png" alt="">
+                            <span>chaeww</span>
+                        </div>
+                        <img src="gambar/chaewon.jpg" class="post-img" alt="chaeww">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">FitSnap</h5>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Links</h6>
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Explore</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Profile</a>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Links</h6>
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Explore</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Profile</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
